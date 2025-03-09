@@ -1,0 +1,177 @@
+{
+	"system_id": "IA123456789",
+	"source_system": "AuthorisationSwitch",
+	"acceptance_source_system": "GatewayAcceptance",
+	"type": "PreAuth",
+	"entry_type": "Debit",
+	"payment_reference_id": "PR123456789",
+	"original_payment_reference_id": "OPR123456789",
+	"merchant_payment_reference": "MPR123456789",
+	"acquirer_name": "AcquirerX",
+	"processor_name": "ProcessorY",
+	"stan_number": "STAN123",
+	"transaction_creation_date": {
+		"local": "2024-02-19T08:00:00",
+		"local_timezone": "UTC+0",
+		"utc": "2024-02-19T08:00:00"
+	},
+	"requester": {
+		"origin_ip": "192.168.1.1",
+		"origin_platform": "Portal",
+		"origin_country_code": "US",
+		"username": "user123",
+		"fingerprint": "ABCDEF123456"
+	},
+	"merchant": {
+		"id": "M123",
+		"system_id": "G123",
+		"external_id": "EM123",
+		"scheme_merchant_id": "SMID123",
+		"acquirer_id": "ACQ123",
+		"terminal_id": "TID123",
+		"market_category_code": "MCC123"
+	},
+	"market_data": {},
+	"channel": {
+		"type": "POS",
+		"payment_site_id": "PSID123",
+		"terminal_id": "TID123",
+		"info": {
+			"pos_entry_mode": "Chip&Pin",
+			"pos_capability": "Contactless",
+			"pos_environment": "Merchant",
+			"pos_condition_code": "00",
+			"pos_condition_description": "Normal",
+			"pos_processing_code": "000000",
+			"card_holder_verification_method": "Signature"
+		}
+	},
+	"currency_conversion": {
+		"type": "Dynamic",
+		"is_eligible": true,
+		"is_accepted": true,
+		"exchange_rate": 1.25,
+		"markup": 0.05
+	},
+	"amounts": {
+		"requested": {
+			"currency_code": "USD",
+			"currency_exponent": 2,
+			"value": 100
+		},
+		"authorized": {
+			"currency_code": "USD",
+			"currency_exponent": 2,
+			"value": 125
+		},
+		"tip": {
+			"currency_code": "USD",
+			"currency_exponent": 2,
+			"value": 5
+		},
+		"donation": {
+			"currency_code": "USD",
+			"currency_exponent": 2,
+			"value": 10
+		},
+		"vat": {
+			"currency_code": "USD",
+			"currency_exponent": 2,
+			"value": 15
+		}
+	},
+	"payment_method": {
+		"type": "Card",
+		"card_type": "Credit",
+		"scheme_id": "MC",
+		"scheme_name": "MASTERCARD INTERNATIONAL",
+		"currency_code": "USD",
+		"masked_number": "************1234",
+		"bin_number": "123456",
+		"last4_number": "1234",
+		"issuer": {
+			"name": "IssuerX",
+			"country_code": "US"
+		},
+		"token": {
+			"value": "TOKEN123456789",
+			"provider": "ProviderZ"
+		},
+		"read_method": "Chip&Pin",
+		"cardholder_verification_method": "PIN",
+		"three_ds": {
+			"used": true,
+			"is_frictionless": true,
+			"acs_url": "https://acsurl.com",
+			"authentication_type": "AuthenticationTypeX",
+			"transaction_id": "TXID123",
+			"message_version": "1.0",
+			"authentication_response": "Success",
+			"result_reason": "Successful",
+			"exemption_type": "LowValue"
+		},
+		"sca": {
+			"transaction_reference": "TXREF123",
+			"transaction_initiator": "Merchant",
+			"card_on_file_indicator": "NotOnFile",
+			"exemption_indicator": "Exempted",
+			"mit_type": "TwoFactor"
+		},
+		"emv": {
+			"application_id": "APPID123",
+			"cryptogram": "CRYPTO123",
+			"cryptogram_type": "TypeA",
+			"unpredictable_number": "UN123",
+			"transaction_status_info": "StatusInfo123"
+		},
+		"avs": {
+			"response_code": "Match",
+			"partner_response_code": "Match"
+		},
+		"cvv": {
+			"response_code": "Match",
+			"partner_response_code": "Match"
+		}
+	},
+	"metadata": {
+		"merchant": {},
+		"user": {}
+	},
+	"scheme_response": {
+		"reference_id": "REF123",
+		"approval_code": "APPROVAL123",
+		"response_code": "00",
+		"response_text": "Approved",
+		"response_date": {
+			"local": "2024-02-19T08:05:00",
+			"local_timezone": "UTC+0",
+			"utc": "2024-02-19T08:05:00"
+		}
+	},
+	"acquirer_response": {
+		"retrieval_reference_number": "RRN123",
+		"action_code": "",
+		"approval_code": "APPROVAL123",
+		"response_code": "00",
+		"response_text": "Approved",
+		"response_date": {
+			"local": "2024-02-19T08:10:00",
+			"local_timezone": "UTC+0",
+			"utc": "2024-02-19T08:10:00"
+		}
+	},
+	"gateway_response": {
+		"approval_code": "APPROVAL123",
+		"response_code": "00",
+		"response_text": "Approved",
+		"response_date": {
+			"local": "2024-02-19T08:15:00",
+			"local_timezone": "UTC+0",
+			"utc": "2024-02-19T08:15:00"
+		}
+	},
+	"receipt": {
+		"link": "https://example.com/receipt123.pdf"
+	},
+	"event": {}
+}

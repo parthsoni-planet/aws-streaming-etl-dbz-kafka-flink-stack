@@ -1,0 +1,112 @@
+
+#List of Dependencies to install:
+
+pip install apache-flink   
+
+Collecting apache-flink
+  Downloading apache_flink-1.18.1-cp310-cp310-macosx_11_0_arm64.whl (2.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 3.3 MB/s eta 0:00:00
+Collecting fastavro!=1.8.0,>=1.1.0
+  Using cached fastavro-1.9.4-cp310-cp310-macosx_11_0_arm64.whl
+Collecting py4j==0.10.9.7
+  Using cached py4j-0.10.9.7-py2.py3-none-any.whl (200 kB)
+Collecting cloudpickle>=2.2.0
+  Using cached cloudpickle-3.0.0-py3-none-any.whl (20 kB)
+Collecting apache-flink-libraries<1.18.2,>=1.18.1
+  Using cached apache_flink_libraries-1.18.1-py2.py3-none-any.whl
+Collecting pyarrow>=5.0.0
+  Downloading pyarrow-15.0.0-cp310-cp310-macosx_11_0_arm64.whl (24.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.2/24.2 MB 11.5 MB/s eta 0:00:00
+Collecting python-dateutil<3,>=2.8.0
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting apache-beam<2.49.0,>=2.43.0
+  Using cached apache_beam-2.48.0-py3-none-any.whl
+Collecting pytz>=2018.3
+  Using cached pytz-2024.1-py2.py3-none-any.whl (505 kB)
+Collecting requests>=2.26.0
+  Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting avro-python3!=1.9.2,>=1.8.1
+  Using cached avro_python3-1.10.2-py3-none-any.whl
+Collecting protobuf>=3.19.0
+  Downloading protobuf-4.25.3-cp37-abi3-macosx_10_9_universal2.whl (394 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.2/394.2 kB 12.3 MB/s eta 0:00:00
+Collecting numpy>=1.21.4
+  Downloading numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl (14.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.0/14.0 MB 11.3 MB/s eta 0:00:00
+Collecting pandas>=1.3.0
+  Downloading pandas-2.2.0-cp310-cp310-macosx_11_0_arm64.whl (11.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 MB 9.6 MB/s eta 0:00:00
+Collecting httplib2>=0.19.0
+  Using cached httplib2-0.22.0-py3-none-any.whl (96 kB)
+Collecting pemja==0.3.0
+  Downloading pemja-0.3.0-cp310-cp310-macosx_11_0_arm64.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.4/53.4 kB 5.6 MB/s eta 0:00:00
+Collecting find-libpython
+  Using cached find_libpython-0.3.1-py3-none-any.whl (8.4 kB)
+Collecting grpcio!=1.48.0,<2,>=1.33.1
+  Downloading grpcio-1.60.1-cp310-cp310-macosx_12_0_universal2.whl (9.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 10.3 MB/s eta 0:00:00
+Collecting dill<0.3.2,>=0.3.1.1
+  Using cached dill-0.3.1.1-py3-none-any.whl
+Collecting orjson<4.0
+  Downloading orjson-3.9.14-cp310-cp310-macosx_10_15_x86_64.macosx_11_0_arm64.macosx_10_15_universal2.whl (253 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 253.2/253.2 kB 10.2 MB/s eta 0:00:00
+Collecting proto-plus<2,>=1.7.1
+  Using cached proto_plus-1.23.0-py3-none-any.whl (48 kB)
+Collecting fasteners<1.0,>=0.3
+  Using cached fasteners-0.19-py3-none-any.whl (18 kB)
+Collecting hdfs<3.0.0,>=2.1.0
+  Using cached hdfs-2.7.3-py3-none-any.whl
+Collecting cloudpickle>=2.2.0
+  Using cached cloudpickle-2.2.1-py3-none-any.whl (25 kB)
+Collecting protobuf>=3.19.0
+  Using cached protobuf-4.23.4-cp37-abi3-macosx_10_9_universal2.whl (400 kB)
+Collecting regex>=2020.6.8
+  Downloading regex-2023.12.25-cp310-cp310-macosx_11_0_arm64.whl (291 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 291.0/291.0 kB 10.0 MB/s eta 0:00:00
+Collecting pydot<2,>=1.2.0
+  Using cached pydot-1.4.2-py2.py3-none-any.whl (21 kB)
+Collecting objsize<0.7.0,>=0.6.1
+  Using cached objsize-0.6.1-py3-none-any.whl (9.3 kB)
+Collecting numpy>=1.21.4
+  Downloading numpy-1.24.4-cp310-cp310-macosx_11_0_arm64.whl (13.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.9/13.9 MB 10.5 MB/s eta 0:00:00
+Collecting typing-extensions>=3.7.0
+  Using cached typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+Collecting pymongo<5.0.0,>=3.8.0
+  Downloading pymongo-4.6.1-cp310-cp310-macosx_10_9_universal2.whl (534 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 534.5/534.5 kB 11.7 MB/s eta 0:00:00
+Collecting crcmod<2.0,>=1.7
+  Using cached crcmod-1.7-cp310-cp310-macosx_11_0_arm64.whl
+Collecting pyarrow>=5.0.0
+  Downloading pyarrow-11.0.0-cp310-cp310-macosx_11_0_arm64.whl (22.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22.4/22.4 MB 4.0 MB/s eta 0:00:00
+Collecting zstandard<1,>=0.18.0
+  Downloading zstandard-0.22.0-cp310-cp310-macosx_11_0_arm64.whl (703 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 703.4/703.4 kB 7.1 MB/s eta 0:00:00
+Collecting pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2
+  Using cached pyparsing-3.1.1-py3-none-any.whl (103 kB)
+Collecting tzdata>=2022.7
+  Using cached tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting certifi>=2017.4.17
+  Using cached certifi-2024.2.2-py3-none-any.whl (163 kB)
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.2.1-py3-none-any.whl (121 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.1/121.1 kB 6.2 MB/s eta 0:00:00
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.3.2-cp310-cp310-macosx_11_0_arm64.whl (120 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120.4/120.4 kB 6.3 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Using cached idna-3.6-py3-none-any.whl (61 kB)
+Collecting docopt
+  Using cached docopt-0.6.2-py2.py3-none-any.whl
+Collecting dnspython<3.0.0,>=1.16.0
+  Downloading dnspython-2.6.1-py3-none-any.whl (307 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.7/307.7 kB 7.3 MB/s eta 0:00:00
+Installing collected packages: pytz, py4j, find-libpython, docopt, crcmod, zstandard, urllib3, tzdata, typing-extensions, six, regex, pyparsing, protobuf, pemja, orjson, objsize, numpy, idna, grpcio, fasteners, fastavro, dnspython, dill, cloudpickle, charset-normalizer, certifi, avro-python3, apache-flink-libraries, requests, python-dateutil, pymongo, pydot, pyarrow, proto-plus, httplib2, pandas, hdfs, apache-beam, apache-flink
+Successfully installed apache-beam-2.48.0 apache-flink-1.18.1 apache-flink-libraries-1.18.1 avro-python3-1.10.2 certifi-2024.2.2 charset-normalizer-3.3.2 cloudpickle-2.2.1 crcmod-1.7 dill-0.3.1.1 dnspython-2.6.1 docopt-0.6.2 fastavro-1.9.4 fasteners-0.19 find-libpython-0.3.1 grpcio-1.60.1 hdfs-2.7.3 httplib2-0.22.0 idna-3.6 numpy-1.24.4 objsize-0.6.1 orjson-3.9.14 pandas-2.2.0 pemja-0.3.0 proto-plus-1.23.0 protobuf-4.23.4 py4j-0.10.9.7 pyarrow-11.0.0 pydot-1.4.2 pymongo-4.6.1 pyparsing-3.1.1 python-dateutil-2.8.2 pytz-2024.1 regex-2023.12.25 requests-2.31.0 six-1.16.0 typing-extensions-4.9.0 tzdata-2024.1 urllib3-2.2.1 zstandard-0.22.0
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip

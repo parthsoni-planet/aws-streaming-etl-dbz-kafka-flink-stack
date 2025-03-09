@@ -1,0 +1,42 @@
+[
+    {
+        "transaction_creation_date": "2024-02-19T08:00:00",
+        "acquirer_name": "PayPal",
+        "value": 110.1
+    },
+    {
+        "transaction_creation_date": "2024-02-19T08:00:02",
+        "acquirer_name": "MasterCard",
+        "value": 30.2
+    },
+    {
+        "transaction_creation_date": "2024-02-19T08:00:03",
+        "acquirer_name": "PayPal",
+        "value": 20.0
+    },
+    {
+        "transaction_creation_date": "2024-02-19T08:00:01",
+        "acquirer_name": "MasterCard",
+        "value": 53.1
+    },
+    {
+        "transaction_creation_date": "2024-02-19T08:00:04",
+        "acquirer_name": "PayPal",
+        "value": 13.1
+    },
+    {
+        "transaction_creation_date": "2024-02-19T08:00:03",
+        "acquirer_name": "MasterCard",
+        "value": 3.1
+    },
+    {
+        "transaction_creation_date": "2024-02-19T08:00:07",
+        "acquirer_name": "MasterCard",
+        "value": 16.1
+    },
+    {
+        "transaction_creation_date": "2024-02-19T08:00:05",
+        "acquirer_name": "PayPal",
+        "value": 20.1
+    }
+]

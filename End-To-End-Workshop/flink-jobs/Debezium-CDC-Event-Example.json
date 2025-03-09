@@ -1,0 +1,30 @@
+{
+    "source": {
+      "version": "1.6.0.Final",
+      "connector": "sqlserver",
+      "name": "testDB",
+      "ts_ms": 1646128593000,
+      "snapshot": "false",
+      "db": "testDB",
+      "schema": "dbo",
+      "table_name": "customers",
+      "change_lsn": "0000002e:000001bf:0001",
+      "commit_lsn": "0000002e:000001bf:0002",
+      "event_serial_no": 2
+    },
+    "op": "u",
+    "ts_ms": 1646128593100,
+    "before": {
+      "id": 1001,
+      "first_name": "Parth",
+      "last_name": "Soni",
+      "email": "parth.soni@planetpayment.com"
+    },
+    "after": {
+      "id": 1001,
+      "first_name": "Parth",
+      "last_name": "Soni",
+      "email": "parth.soni@weareplanet.com"
+    }
+  }
+  

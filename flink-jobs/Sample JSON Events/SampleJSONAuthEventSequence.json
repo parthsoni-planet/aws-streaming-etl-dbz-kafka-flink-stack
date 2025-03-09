@@ -1,0 +1,50 @@
+[
+    {
+        "event_name": "authorizationCreated",
+        "event_order": 1
+    },
+    {
+        "event_name": "schemesResponded",
+        "event_order": 2
+    },
+    {
+        "event_name": "authorizationCreated",
+        "event_order": 3
+    },
+    {
+        "event_name": "schemesResponded",
+        "event_order": 4
+    },
+    {
+        "event_name": "authorizationCreated",
+        "event_order": 5
+    },
+    {
+        "event_name": "schemesResponded",
+        "event_order": 8
+    },
+    {
+        "event_name": "schemesResponded",
+        "event_order": 9
+    },
+    {
+        "event_name": "acquirerRequested",
+        "event_order": 19
+    },
+    {
+        "event_name": "acquirerResponded",
+        "event_order": 18
+    },
+    {
+        "event_name": "acquirerRequested",
+        "event_order": 16
+    },
+    {
+        "event_name": "acquirerResponded",
+        "event_order": 12
+    },
+    {
+        "event_name": "acquirerResponded",
+        "event_order": 11
+    }
+]
